@@ -640,7 +640,7 @@ function zoo_getHomeData(inviteId= "",timeout = 0) {
             secretp = data.data.result.homeMainInfo.secretp
             await zoo_collectProduceScore();
             if (merge.black) return;
-            await zoo_pk_getHomeData('sSKNX-MpqKOJsNu9yJrYBniM2s3PdKnwjGIKsiw-rGx4UdckYeKYnvgOpEigW3sz')
+            await zoo_pk_getHomeData('sSKNX-MpqKOJsNu9yJrYBniM2s3PdKnwjGIKsiw-rGx4UdckYeKYnvgOpEigW3sy')
             //await zoo_pk_assistGroup()
             //if (data.data.result.homeMainInfo.raiseInfo.buttonStatus === 1 )
             if (parseInt(data.data.result.homeMainInfo.raiseInfo.totalScore) >= parseInt(data.data.result.homeMainInfo.raiseInfo.nextLevelScore) ) await zoo_raise(1000)
